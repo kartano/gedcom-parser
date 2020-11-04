@@ -14,8 +14,14 @@
     "require": {
         "php": ">=7.2"
     },
+    "require-dev": {
+        "phpspec/prophecy": "^1.6.1",
+        "phpunit/phpunit": "^8.5"
+    },
     "autoload": {
-        "psr-4": { "gedcom-parser\\": ["src/"] }
+        "psr-4": { "gedcom-parser\\": ["src/gedcom-parser"] }
+    },
+    "autoload-dev": {
+        "psr-4": {"gedcom-parser\\": ["tests/gedcom-parser"] }
     }
 }
-
