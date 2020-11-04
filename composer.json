@@ -1,0 +1,21 @@
+{
+    "name": "kartano/gedcom-parser",
+    "description": "GEDCOM parser library designed around the Gedcom 5.5 standard",
+    "keywords": ["gedcom"],
+    "homepage": "https://github.com/kartano/gedcom-parser",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Simon Mitchell",
+            "email": "kartano@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": { "gedcom-parser\\": ["src/"] }
+    }
+}
+
