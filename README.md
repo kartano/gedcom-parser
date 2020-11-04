@@ -13,7 +13,7 @@ $ composer require kartano/gedcom-parser
 
 ### Requirements
 
-- Gedcom-parser works with PHP 7.2 or above.
+- Gedcom-parser works with PHP 7.4 or above.
 
 ### Author
 

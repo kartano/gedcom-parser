@@ -12,16 +12,16 @@
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.4"
     },
     "require-dev": {
         "phpspec/prophecy": "^1.6.1",
         "phpunit/phpunit": "^8.5"
     },
     "autoload": {
-        "psr-4": { "gedcom-parser\\": ["src/gedcom-parser"] }
+        "psr-4": { "GedcomParser\\": [ "src/GedcomParser" ] }
     },
     "autoload-dev": {
-        "psr-4": {"gedcom-parser\\": ["tests/gedcom-parser"] }
+        "psr-4": {"GedcomParser\\": ["tests/GedcomParser"] }
     }
 }
